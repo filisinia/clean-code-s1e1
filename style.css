@@ -39,10 +39,12 @@ body {
   margin: 0;
   padding: 0px;
 }
-.todo__item, .todo__state {
+.todo__item,
+.todo__state {
   list-style: none;
 }
-.todo__field, .todo__btn{
+.todo__field,
+.todo__btn{
   outline: none;
 }
 .todo__btn {
@@ -116,7 +118,7 @@ body {
   font-size: 18px;
   width: 226px;
 }
-.todo__item >    .todo__field {
+.todo__item > .todo__field {
   width: 226px;
 }
 .todo__img {
