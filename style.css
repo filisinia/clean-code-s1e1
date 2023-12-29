@@ -18,7 +18,8 @@ body {
 }
 
 @media (max-width:768px) {
-.matrix { text-align: center;
+  .matrix { 
+    text-align: center;
 }
 }
 .todo {
