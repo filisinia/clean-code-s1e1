@@ -36,14 +36,14 @@ body {
   display: flex;
 }
 .todo__incomplete {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .todo__item, .todo__state {
-  list-style:none;
+  list-style: none;
 }
 .todo__field, .todo__btn{
-  outline:none;
+  outline: none;
 }
 .todo__btn {
   background: none;
@@ -137,14 +137,14 @@ body {
 /* Edit Task */
 .todo__incomplete .todo__field,
 .todo__completed .todo__field {
-  display:none
+  display: none
 }
 
 .todo__edit-task .todo__field {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo__label-edit{
-  display:none;
+  display: none;
 }
