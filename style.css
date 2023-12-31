@@ -27,7 +27,7 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.todo__new-task-field {
+.todo__new-task .todo__field {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -61,7 +61,7 @@ body {
 }
 /* Heading */
 .todo__state,
-.todo__label-new {
+.todo__add .todo__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,11 +87,11 @@ body {
 }
 
 /* New Task */
-.todo__label-new {
+.todo__add .todo__label {
   display: block;
   margin: 0 0 20px;
 }
-.todo__new-task-field {
+.todo__new-task .todo__field {
   width: 318px;
 }
 
@@ -131,7 +131,7 @@ body {
 }
 
 /* Completed */
-.todo__label-completed {
+.todo__completed .todo__label {
   text-decoration: line-through;
     color: #888;
 }
@@ -147,6 +147,6 @@ body {
   width: 224px;
 }
 
-.todo__label-edit{
+.todo__edit-task .todo__label {
   display: none;
 }
